@@ -1,9 +1,9 @@
 package net.balmir.transactionservice.entities;
 
 import jakarta.persistence.*;
+import net.balmir.transactionservice.enums.TransactionStatus;
 import lombok.*;
 import net.balmir.transactionservice.enums.TransactionType;
-import org.hibernate.resource.transaction.spi.TransactionStatus;
 
 import java.time.LocalDateTime;
 
